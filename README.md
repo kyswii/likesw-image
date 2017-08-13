@@ -1,3 +1,3 @@
 # likesw-image
 
-## react-redux
+## es6-react-redux

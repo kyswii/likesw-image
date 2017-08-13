@@ -1,0 +1,55 @@
+.lsw-image-group {
+    position: fixed;
+    margin-top: 100%; 
+
+    width: 100%;
+    height: 100%;
+
+    .lsw-image-group-item {
+        position: fixed;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+      
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+
+        transition: margin-top 1s;
+        -webkit-transition: margin-top 1s;
+        -moz-transition: margin-top 1s;
+        -ms-transition: margin-top 1s;
+        -o-transition: margin-top 1s;
+
+
+        img {
+            position: fixed;
+            display: inline-block;
+
+            width: 100%;
+            height: 100%;
+        }
+
+        p {
+            position: fixed;
+            margin: 0;
+            margin-top: 150px;
+
+            max-width: 80%;
+            text-align: center; 
+
+            font-size: 66px;
+            font-weight: bold;
+            color: rgba(255,255,255,.8);
+
+            opacity: 0;
+
+            transition: opacity 2s, margin-top 2s;
+            -webkit-transition: opacity 2s, margin-top 2s;
+            -moz-transition: opacity 2s, margin-top 2s;
+            -ms-transition: opacity 2s, margin-top 2s;
+            -o-transition: opacity 2s, margin-top 2s;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.lsw-action-group {
+    position: fixed;
+
+    right: 30px;
+    bottom: 30px;
+
+    a {
+        margin-left: 20px;
+
+        color: #ccc;
+
+        &:hover {
+            color: #81FF58;
+        }
+
+    }
+}
